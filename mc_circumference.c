@@ -2,6 +2,9 @@
  *	Monte Carlo Simulation Circumference Problem
  *	author: Anna DeVries
  *	date: 18 February 2021
+ *
+ *  gcc -c rng.c
+ *  gcc -lm <file>.c rng.o -o <file> && ./<file>
  *	
  *	Selects two random points on the circumference of a cirlce. It then calculates the distances between the points and compares it to the circle's radius. 
  *
