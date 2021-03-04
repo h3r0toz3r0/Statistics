@@ -1,9 +1,11 @@
 /*
-	Monte Carlo Simulation of Rolling 2 Unfair Dice
-	author: Anna DeVries
-	date: 18 February 2021
-
-*/
+ *  Monte Carlo Simulation of Rolling 2 Unfair Dice
+ *  author: Anna DeVries
+ *  date: 18 February 2021	
+ *
+ *  gcc -c rng.c
+ *  gcc -lm <file>.c rng.o -o <file> && ./<file>
+ */
 
 #include <stdio.h>
 #include "rng.h"
